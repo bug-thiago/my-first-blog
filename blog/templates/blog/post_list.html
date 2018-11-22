@@ -11,9 +11,11 @@
 
 {% for post in posts %}
     <div>
-        
+        <p>publicado em: {{ post.published_date }}</p>
         <h1><a href="">{{ post.title }}</a></h1>
         <p>{{ post.text|linebreaksbr }}</p>
+        <h1><a href="">{{ postt.title }}</a></h1>
+        <p>{{ postt.text|linebreaksbr }}</p>
     </div>
 {% endfor %}
     </body>
